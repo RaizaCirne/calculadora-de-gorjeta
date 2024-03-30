@@ -1,0 +1,41 @@
+main {
+  section {
+    .container {
+      background-color: #181729;
+      border-radius: 2rem;
+      height: 600px;
+      width: 550px;
+      // centralizando div
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h1 {
+        color: #e4e3f5;
+        text-align: center;
+      }
+
+      .div-um {
+        background-color: #724df5;
+        border-radius: 1rem;
+        height: 250px;
+        width: 495px;
+        // centralizando div
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        h2 {
+          width: 50%;
+          color: #ecdeff;
+        }
+
+        input {
+          width: 40%;
+        }
+      }
+    }
+  }
+}

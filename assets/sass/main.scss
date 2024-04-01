@@ -30,6 +30,7 @@ main {
     > .conta {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       margin-bottom: 2rem;
       > label {
         color: #66617f;
@@ -39,7 +40,7 @@ main {
       > #suaConta {
         border-radius: .3rem;
         width: 70%;
-        padding: .5rem;
+        padding: .8rem;
         box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
       }
       > #suaConta::placeholder {
@@ -54,6 +55,7 @@ main {
       > .espacamento {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         > label {
           color: #66617f;
           font-size: 1.5rem;
@@ -114,6 +116,7 @@ main {
     > .espacamento {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 2rem 0;
 
       > .gorjeta {
@@ -158,6 +161,7 @@ main {
       > .espacamento {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         > label {
           color: #66617f;
           font-size: 1.5rem;

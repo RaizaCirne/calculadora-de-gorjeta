@@ -1,7 +1,7 @@
 main section .container {
   background-color: #181729;
   border-radius: 2rem;
-  height: 600px;
+  height: 400px;
   width: 550px;
   position: absolute;
   top: 50%;
@@ -22,10 +22,41 @@ main section .container .div-um {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-main section .container .div-um h2 {
-  width: 50%;
+main section .container .div-um .conta {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding: 1rem;
+}
+main section .container .div-um .conta h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
   color: #ecdeff;
 }
-main section .container .div-um input {
-  width: 40%;
+main section .container .div-um .conta input {
+  border-radius: 0.2rem;
+  height: 20px;
+  padding: 0.3rem 4rem;
+}
+main section .container .div-um .seleciona-gorjeta {
+  padding: 1rem;
+  margin: 0;
+}
+main section .container .div-um .seleciona-gorjeta h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ecdeff;
+  margin: 0.2rem;
+}
+main section .container .div-um .seleciona-gorjeta input {
+  width: 100%;
+}
+main section .container .div-um .gorjeta {
+  padding: 1rem;
+}
+main section .container .div-um .gorjeta h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #ecdeff;
+  margin: 0.2rem;
 }/*# sourceMappingURL=main.css.map */

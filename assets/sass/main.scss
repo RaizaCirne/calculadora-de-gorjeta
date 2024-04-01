@@ -3,7 +3,7 @@ main {
     .container {
       background-color: #181729;
       border-radius: 2rem;
-      height: 600px;
+      height: 400px;
       width: 550px;
       // centralizando div
       position: absolute;
@@ -27,13 +27,50 @@ main {
         left: 50%;
         transform: translate(-50%, -50%);
 
-        h2 {
-          width: 50%;
-          color: #ecdeff;
+        .conta {
+          display: flex;
+          gap: 100px;
+          // justify-content: center;
+          align-items: center;
+          padding: 1rem;
+
+          h2 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #ecdeff;
+          }
+  
+          input {
+            border-radius: .2rem;
+            // width: 300px;
+            height: 20px;
+            padding: .3rem 4rem;
+          }
         }
 
-        input {
-          width: 40%;
+        .seleciona-gorjeta {
+          padding: 1rem;
+          margin: 0;
+          h2 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #ecdeff;
+            margin: .2rem;
+          }
+
+          input {
+            width: 100%;
+          }
+        }
+
+        .gorjeta {
+          padding: 1rem;
+          h2 {
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #ecdeff;
+            margin: .2rem;
+          }
         }
       }
     }

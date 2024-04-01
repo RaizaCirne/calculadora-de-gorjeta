@@ -4,29 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Gorjeta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
   <main>
+    <h1>Calculadora de Gorjeta</h1>
+
     <section>
-      <div class="container">
-        <h1>Calculadora de Gorjeta</h1>
-        <div class="div-um">
-          <div class="conta">
-            <h2>Conta</h2>
-            <input type="number" placeholder="Sua conta">
-          </div>
 
-          <div class="seleciona-gorjeta">
-            <h2>Selecionar Gorjeta</h2>
-            <input type="range">
-          </div>
+      <div class="conta">
+        <label for="suaConta">Conta</label>
+        <input 
+        type="number" 
+        placeholder="Sua conta" 
+        id="suaConta">
+      </div>
 
-          <div class="gorjeta">
-            <h2>Gorjeta</h2>            
-          </div>
+      <div>
+        <div class="espacamento">
+          <label for="">Selecionar Gorjeta</label>
+          <span id="porcentagemGorjeta">10%</span>
         </div>
 
+        <input type="range" id="inputGorjeta" class="range">
+      </div>
+
+      <div class="espacamento">
+        <span class="gorjeta">Gorjeta</span>
+        <span id="valorGorjeta">R$10,00</span>
+      </div>
+
+      <hr/>
+
+      <div class="espacamento total">
+        <span class="total">Total</span>
+        <span id="totalComGorjeta">R$200,00</span>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <div class="espacamento">
+          <label for="">Número de pessoas</label>
+          <span id="pessoas">4</span>
+        </div>
+
+        <input type="range" id="inputGorjeta" class="range">
+      </div>
+
+      <div class="espacamento">
+        <span class="divisao-conta">Valor divido por pessoa</span>
+        <span id="divisaoConta">R$10,00</span>
       </div>
     </section>
   </main>

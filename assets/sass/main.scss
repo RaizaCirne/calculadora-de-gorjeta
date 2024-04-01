@@ -1,77 +1,188 @@
-main {
-  section {
-    .container {
-      background-color: #181729;
-      border-radius: 2rem;
-      height: 400px;
-      width: 550px;
-      // centralizando div
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      h1 {
-        color: #e4e3f5;
-        text-align: center;
+main {
+  background-color: #181729;
+  border-radius: 2.5rem;
+  font-family: roboto, sans-serif;
+  height: 730px;
+  width: 600px;
+  // centralizando div
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  > h1 {
+    color: #acaabf;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  > section {
+    background-color: #23203d;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 40);
+
+    > .conta {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      > label {
+        color: #66617f;
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
+      > #suaConta {
+        border-radius: .3rem;
+        width: 70%;
+        padding: .5rem;
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+      }
+      > #suaConta::placeholder {
+        color: #acaabf;
+        padding: .5rem;
+        font-size: .9rem;
+    }
+    }
+
+    > div {
+      
+      > .espacamento {
+        display: flex;
+        justify-content: space-between;
+        > label {
+          color: #66617f;
+          font-size: 1.5rem;
+          font-weight: normal;
+        }
+        > #porcentagemGorjeta {
+          color: #dedcf1;
+          font-size: 1.5rem;
+          font-weight: normal;
+        }
       }
 
-      .div-um {
-        background-color: #724df5;
-        border-radius: 1rem;
-        height: 250px;
-        width: 495px;
-        // centralizando div
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+      > input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 100%;
+        height: 10px;
+        background: #754cf2;
+        border: 3px solid #754cf2;
+        border-radius: 5px;
+        outline: none;
+      }
+      
+      /* Estilizando para navegadores WebKit (como Chrome e Safari) */
+      > input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #fff; /* Cor de fundo */
+        border-radius: 50%;
+        cursor: pointer;
+        border: 3px solid #754cf2;
 
-        .conta {
-          display: flex;
-          gap: 100px;
-          // justify-content: center;
-          align-items: center;
-          padding: 1rem;
+      }
+      
+      /* Estilizando para navegadores Firefox */
+      > input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background: #fff; /* Cor de fundo */
+        border-radius: 50%;
+        border: 3px solid #754cf2;
+        cursor: pointer;
+      }
+      
+      /* Estilizando para navegadores Internet Explorer e Edge */
+      > input[type="range"]::-ms-thumb {
+        width: 20px;
+        height: 20px;
+        background: #fff; /* Cor de fundo */
+        border-radius: 50%;
+        border: 3px solid #754cf2;
+        cursor: pointer;
+      }
+    }
 
-          h2 {
-            font-weight: 400;
-            font-size: 1.5rem;
-            color: #ecdeff;
-          }
-  
-          input {
-            border-radius: .2rem;
-            // width: 300px;
-            height: 20px;
-            padding: .3rem 4rem;
-          }
-        }
+    > .espacamento {
+        display: flex;
+        justify-content: space-between;
+        margin: 2rem 0;
 
-        .seleciona-gorjeta {
-          padding: 1rem;
-          margin: 0;
-          h2 {
-            font-weight: 400;
-            font-size: 1.5rem;
-            color: #ecdeff;
-            margin: .2rem;
-          }
+      > .gorjeta {
+        color: #66617f;
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
+      > #valorGorjeta {
+          color: #dedcf1;
+          font-size: 1.5rem;
+          font-weight: normal;
+      }
+    }
+    > hr {
+      border: none; 
+      height: 2px; 
+      background-color: #66617f;
+    }
 
-          input {
-            width: 100%;
-          }
-        }
+    > .espacamento {
+      > .total {
+        // color: #66617f;
+        color: #fff9;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      > #totalComGorjeta {
+          // color: #dedcf1;
+          color: #fff9;
+          font-size: 1.5rem;
+          font-weight: 600;
+      }
+    }
+  }
 
-        .gorjeta {
-          padding: 1rem;
-          h2 {
-            font-weight: 400;
-            font-size: 1.5rem;
-            color: #ecdeff;
-            margin: .2rem;
-          }
-        }
+  > section {
+    background-color: #23203d;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 40);
+    > div {
+      > .espacamento {
+        display: flex;
+        justify-content: space-between;
+        > label {
+          color: #66617f;
+          font-size: 1.5rem;
+          font-weight: normal;
+         }
+         > #pessoas {
+          color: #dedcf1;
+          font-size: 1.5rem;
+          font-weight: normal;
+         }
+      }
+
+
+    }
+
+    > .espacamento {
+      > .divisao-conta {
+        color: #66617f;
+        font-size: 1.5rem;
+        font-weight: normal;
+      }
+      > #divisaoConta {
+        color: #dedcf1;
+        font-size: 1.5rem;
+        font-weight: normal;
       }
     }
   }

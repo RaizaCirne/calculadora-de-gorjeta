@@ -1,6 +1,12 @@
 function formatarDinheiro(value) {
   return "R$ " + value.toFixed(2);
-}
+}; 
+
+function pluralSingular(value) {
+  if(value <= 1) {
+    return value + ' Pessoa';
+  } return value + ' Pessoas';
+};
 
 function atualizar() {
   let conta = Number(document.getElementById('suaConta').value);
@@ -14,6 +20,6 @@ function atualizar() {
   document.getElementById('porcentagemGorjeta').innerHTML = porcentagemGorjeta + ' %';
   document.getElementById('valorGorjeta').innerHTML = formatarDinheiro(valorGorjeta);
   document.getElementById('totalComGorjeta').innerHTML = formatarDinheiro(total);
-  document.getElementById('pessoas').innerHTML = pessoas + ' Pessoas';
+  document.getElementById('pessoas').innerHTML = pluralSingular(pessoas);
   document.getElementById('divisaoConta').innerHTML = formatarDinheiro(valorDivididoPorPessoas);
 };

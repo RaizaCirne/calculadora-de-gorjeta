@@ -8,7 +8,7 @@ main {
   background-color: #181729;
   border-radius: 2.5rem;
   font-family: roboto, sans-serif;
-  height: 730px;
+  height: 550px;
   width: 600px;
   position: absolute;
   top: 50%;
@@ -18,31 +18,31 @@ main {
 main > h1 {
   color: #acaabf;
   text-align: center;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
 }
 main > section {
   background-color: #23203d;
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 1rem;
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 main > section > .conta {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 main > section > .conta > label {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > .conta > #suaConta {
   border-radius: 0.3rem;
   width: 70%;
-  padding: 0.8rem;
+  padding: 0.4rem;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #acaabf;
 }
 main > section > .conta > #suaConta::-moz-placeholder {
@@ -67,12 +67,12 @@ main > section > div > .espacamento {
 }
 main > section > div > .espacamento > label {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > div > .espacamento > #porcentagemGorjeta {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > div > input[type=range] {
@@ -116,16 +116,16 @@ main > section > .espacamento {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1.2rem 0;
 }
 main > section > .espacamento > .gorjeta {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > .espacamento > #valorGorjeta {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > hr {
@@ -135,18 +135,18 @@ main > section > hr {
 }
 main > section > .espacamento > .total {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 main > section > .espacamento > #totalComGorjeta {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 main > section {
   background-color: #23203d;
-  padding: 1.5rem;
-  margin: 1.5rem;
+  padding: 1rem;
+  margin: 1.2rem;
   box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 main > section > div > .espacamento {
@@ -156,21 +156,21 @@ main > section > div > .espacamento {
 }
 main > section > div > .espacamento > label {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > div > .espacamento > #pessoas {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > .espacamento > .divisao-conta {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 main > section > .espacamento > #divisaoConta {
   color: #66617f;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: normal;
 }/*# sourceMappingURL=main.css.map */

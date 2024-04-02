@@ -28,7 +28,7 @@ Aplicativo web para calcular a gorjeta a partir de uma conta, porcentagem de gor
 
 - pluralSingular(value): Esta função determina se deve ser usado o singular ou plural dependendo do valor. Retorna "X Pessoa" se o valor for igual a 1 e "X Pessoas" se for maior que 1.
 
-- atualizar(): Esta função é chamada quando o botão "Atualizar" é clicado. Ela recupera os valores inseridos pelo usuário, calcula a gorjeta, o total com gorjeta e o valor da conta dividido pelo número de pessoas, e então atualiza os elementos HTML correspondentes com os resultados calculados.
+- atualizar(): Esta função é chamada quando o "Atualizar" é selecionado. Ela recupera os valores inseridos pelo usuário, calcula a gorjeta, o total com gorjeta e o valor da conta dividido pelo número de pessoas, e então atualiza os elementos HTML correspondentes com os resultados calculados.
 
 - Além das funções JavaScript fornecidas para calcular a gorjeta e dividir a conta, este projeto inclui estilos CSS para melhorar a aparência e a usabilidade do aplicativo.
 

@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-  <main>
+  <main oninput="atualizar()">
     <h1>Calculadora de Gorjeta</h1>
 
     <section>
@@ -26,7 +26,7 @@
       <div>
         <div class="espacamento">
           <label for="">Selecionar Gorjeta</label>
-          <span id="porcentagemGorjeta">10%</span>
+          <span id="porcentagemGorjeta"></span>
         </div>
 
         <input type="range" id="inputGorjeta" class="range">
@@ -34,14 +34,14 @@
 
       <div class="espacamento">
         <span class="gorjeta">Gorjeta</span>
-        <span id="valorGorjeta">R$10,00</span>
+        <span id="valorGorjeta"></span>
       </div>
 
       <hr/>
 
       <div class="espacamento total">
         <span class="total">Total</span>
-        <span id="totalComGorjeta">R$200,00</span>
+        <span id="totalComGorjeta"></span>
       </div>
     </section>
 
@@ -49,15 +49,15 @@
       <div>
         <div class="espacamento">
           <label for="">Número de pessoas</label>
-          <span id="pessoas">4</span>
+          <span id="pessoas"></span>
         </div>
 
-        <input type="range" id="inputGorjeta" class="range">
+        <input type="range" id="inputPessoas" class="range">
       </div>
 
       <div class="espacamento">
         <span class="divisao-conta">Valor divido por pessoa</span>
-        <span id="divisaoConta">R$10,00</span>
+        <span id="divisaoConta"></span>
       </div>
     </section>
   </main>

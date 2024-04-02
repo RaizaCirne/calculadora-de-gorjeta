@@ -60,15 +60,15 @@ Aplicativo web para calcular a gorjeta a partir de uma conta, porcentagem de gor
 
 ## :video_camera: Video
 
-https://github.com/RaizaCirne/calculadora-simples/assets/109912543/41db9dd5-90d4-4d8e-9e9c-b221652c08af
+https://github.com/RaizaCirne/calculadora-de-gorjeta/assets/109912543/31989f0b-c4a8-438f-84d7-9d7b1bab07b6
 
 ## :desktop_computer: Desktop design
 
-![Design preview desktop](./assets/images/desktop.jpeg)
+![Design preview desktop](./assets/images/desktop.png)
 
 ## :iphone: Mobile design
 
-![Design preview desktop](./assets/images/mobile.jpeg)
+![Design preview desktop](./assets/images/mobile.png)
 
 <br />
 
@@ -76,7 +76,7 @@ https://github.com/RaizaCirne/calculadora-simples/assets/109912543/41db9dd5-90d4
 
 <br />
 
-- Para acessar o site [Clique aqui](#)
+- Para acessar o site [Clique aqui](https://660c338b35af304905bfa19b--dashing-haupia-302e32.netlify.app/)
 
 <br />
 
@@ -123,7 +123,7 @@ Abrir pasta no editor de código.
 
 <br />
 
-- Personal Page - [Raíza Cirne Braz](#)
+- Personal Page - [Raíza Cirne Braz](https://660c338b35af304905bfa19b--dashing-haupia-302e32.netlify.app/)
 - Frontend Mentor - [@RaizaCirne](https://www.frontendmentor.io/profile/RaizaCirne)
 - GitHub - [RaizaCirne](https://github.com/RaizaCirne)
 - LinkedIn - [Raíza Cirne Braz](https://www.linkedin.com/in/ra%C3%ADzacirne/)

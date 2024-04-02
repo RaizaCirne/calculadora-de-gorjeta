@@ -54,8 +54,6 @@ Aplicativo web para calcular a gorjeta a partir de uma conta, porcentagem de gor
 
 - Realizar outros projetos utilizando o React.js
 
-<br />
-
 # :camera_flash: Screenshots <a name="id06"></a>
 
 ## :video_camera: Video

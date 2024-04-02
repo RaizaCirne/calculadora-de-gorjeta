@@ -1,3 +1,7 @@
+function formatarDinheiro(value) {
+  return "R$ " + value.toFixed(2);
+}
+
 function atualizar() {
   let conta = Number(document.getElementById('suaConta').value);
   let porcentagemGorjeta = document.getElementById('inputGorjeta').value; 
@@ -7,9 +11,9 @@ function atualizar() {
   let total = conta + valorGorjeta;
   let valorDivididoPorPessoas = total / pessoas;
 
-  document.getElementById('porcentagemGorjeta').innerHTML = porcentagemGorjeta + '%';
-  document.getElementById('valorGorjeta').innerHTML = 'R$ ' + valorGorjeta;
-  document.getElementById('totalComGorjeta').innerHTML = 'R$ ' + total;
+  document.getElementById('porcentagemGorjeta').innerHTML = porcentagemGorjeta + ' %';
+  document.getElementById('valorGorjeta').innerHTML = formatarDinheiro(valorGorjeta);
+  document.getElementById('totalComGorjeta').innerHTML = formatarDinheiro(total);
   document.getElementById('pessoas').innerHTML = pessoas + ' Pessoas';
-  document.getElementById('divisaoConta').innerHTML = valorDivididoPorPessoas;
+  document.getElementById('divisaoConta').innerHTML = formatarDinheiro(valorDivididoPorPessoas);
 };

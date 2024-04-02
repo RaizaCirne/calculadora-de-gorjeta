@@ -1,7 +1,9 @@
+@import 'mixins';
+
 * {
+  @include border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 main {
@@ -9,12 +11,18 @@ main {
   border-radius: 2.5rem;
   font-family: roboto, sans-serif;
   height: 550px;
-  width: 600px;
+  width: 500px;
   // centralizando div
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  @include d(m) {
+    height: 500px;
+    width: 350px;
+  }
+
   > h1 {
     color: #acaabf;
     text-align: center;
